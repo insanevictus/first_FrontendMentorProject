@@ -1,10 +1,9 @@
 body{
-    height: 100%;
-    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #bfdbfe;
+    font-size: 15px;
 }
 
 p{
@@ -18,18 +17,21 @@ p{
     font-style: normal;
 }
 
-.div1{
-    margin-top: 12%;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+.container{
+    display: absolute;
     max-width: 400px;
+    margin: auto;
+}
+.div1{
+    padding: 18px;
+    background-color: hsl(0, 0%, 100%);
     text-align: center;
+    border-radius: 20px;
+    margin: 0, 1em;
 }
 
 .div1 img{
-    width: 400px;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
 }
